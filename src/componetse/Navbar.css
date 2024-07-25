@@ -1,0 +1,27 @@
+.navbar-container {
+    background-color: #1E3A8A; /* Navy blue background */
+    padding: 16px;
+    display: flex;
+    justify-content: center; /* Center the navbar horizontally */
+  }
+  
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display list items horizontally */
+    gap: 20px; /* Space between items */
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    color: #A5B4FC; /* Light blue on hover */
+  }
+  
